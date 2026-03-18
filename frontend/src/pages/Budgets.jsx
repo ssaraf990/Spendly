@@ -58,7 +58,6 @@ export default function Budgets() {
     }
   };
 
-  const setBudgetsList = budgets;
   const totalBudget = budgets.reduce((sum, b) => sum + b.amount, 0);
   const totalSpent = budgets.reduce((sum, b) => sum + b.spent, 0);
   const overBudget = budgets.filter(b => b.status === 'over');

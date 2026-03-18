@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:8000/api'
+  baseURL: 'https://spendly-beyg.onrender.com/api'
 });
 
 export const signup = (data) => API.post('/auth/signup', data);

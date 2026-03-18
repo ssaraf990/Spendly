@@ -12,7 +12,7 @@ const categoryColors = {
 };
 
 const insightIcons = { warning: '⚠', positive: '↑', info: '◈' };
-const insightColors = { warning: '--orange', positive: '--accent', info: '--blue' };
+
 
 const CustomTooltip = ({ active, payload, label }) => {
   if (active && payload && payload.length) {

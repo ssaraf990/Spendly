@@ -8,7 +8,7 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:3000',
-    'https://relaxed-dango-54291d.netlify.app'
+    'https://helpful-biscotti-f2d705.netlify.app'
   ],
   credentials: true
 }));
